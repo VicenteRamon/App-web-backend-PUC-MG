@@ -9,5 +9,8 @@ namespace app_web_backend_PUC_MG.Models
         {
 
         }
+
+        public DbSet<Veiculo> Veiculos { get; set; }
+
     }
 }
